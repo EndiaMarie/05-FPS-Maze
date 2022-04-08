@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=2]
 
 [sub_resource type="SpatialMaterial" id=1]
-albedo_color = Color( 0.196078, 0.12549, 0.12549, 1 )
+albedo_color = Color( 0.239216, 0.0156863, 0.0156863, 1 )
 
 [sub_resource type="CubeMesh" id=2]
 material = SubResource( 1 )
@@ -11,7 +11,7 @@ size = Vector3( 2, 6, 2 )
 points = PoolVector3Array( -1, 3, 1, 1, 3, -1, 1, 3, 1, -1, 3, -1, -1, -3, 1, 1, -3, -1, 1, -3, 1, -1, -3, -1, 1, 3, 1, -1, 3, -1, 1, 3, -1, -1, 3, 1, 1, -3, 1, -1, -3, -1, 1, -3, -1, -1, -3, 1, 1, 3, 1, -1, -3, 1, -1, 3, 1, 1, -3, 1, 1, 3, -1, -1, -3, -1, -1, 3, -1, 1, -3, -1 )
 
 [sub_resource type="SpatialMaterial" id=4]
-albedo_color = Color( 0.258824, 0.0980392, 0.0980392, 1 )
+albedo_color = Color( 0.0509804, 0.12549, 0.262745, 1 )
 
 [sub_resource type="PlaneMesh" id=5]
 material = SubResource( 4 )
